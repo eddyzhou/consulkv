@@ -1,0 +1,6 @@
+package: xlbj-gitlab.xunlei.cn/shoulei-service/consulkv
+import:
+- package: github.com/hashicorp/consul
+  version: ^0.7.5
+  subpackages:
+  - api
